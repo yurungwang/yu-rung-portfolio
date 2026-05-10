@@ -906,3 +906,224 @@ h3 {
     white-space: normal;
   }
 }
+
+/* Detailed academic ledger additions for expanded publications, projects, and honors. */
+.detailed-research {
+  grid-template-columns: minmax(240px, 0.28fr) minmax(0, 0.82fr);
+}
+
+.detailed-research .research-visual {
+  min-height: 520px;
+}
+
+.academic-ledger {
+  margin-top: 2.4rem;
+  padding: clamp(1.1rem, 2.6vw, 1.6rem);
+  border: 1px solid rgba(49, 80, 56, 0.16);
+  border-radius: 1.6rem;
+  background: rgba(255, 252, 244, 0.62);
+  box-shadow: 0 18px 45px rgba(72, 69, 45, 0.08);
+}
+
+.ledger-heading {
+  display: flex;
+  align-items: baseline;
+  justify-content: space-between;
+  gap: 1rem;
+  padding-bottom: 1rem;
+  border-bottom: 1px solid rgba(49, 80, 56, 0.14);
+}
+
+.ledger-heading h3 {
+  margin: 0;
+  font-family: "Noto Serif TC", serif;
+  color: #203a2d;
+  font-size: clamp(1.35rem, 2.4vw, 1.85rem);
+}
+
+.ledger-heading span {
+  color: #8a642d;
+  font-family: "Cormorant Garamond", "Noto Serif TC", serif;
+  font-weight: 700;
+  white-space: nowrap;
+}
+
+.publication-item.detailed {
+  grid-template-columns: 74px minmax(0, 1fr);
+  padding: 1rem 0;
+}
+
+.publication-item.detailed p {
+  margin-top: 0;
+  color: #415541;
+  line-height: 1.82;
+}
+
+.compact-ledger {
+  margin-top: 1rem;
+}
+
+.chapter-item {
+  margin: 0;
+  padding: 1rem 0;
+  border-bottom: 1px solid rgba(49, 80, 56, 0.12);
+  color: #415541;
+  line-height: 1.85;
+}
+
+.chapter-item:last-child {
+  border-bottom: 0;
+  padding-bottom: 0;
+}
+
+.project-table {
+  margin-top: 1.1rem;
+  overflow: hidden;
+  border: 1px solid rgba(49, 80, 56, 0.13);
+  border-radius: 1.1rem;
+}
+
+.project-row {
+  display: grid;
+  grid-template-columns: 1.05fr 2.3fr 1.05fr 0.86fr;
+  gap: 0;
+  border-bottom: 1px solid rgba(49, 80, 56, 0.12);
+}
+
+.project-row:last-child {
+  border-bottom: 0;
+}
+
+.project-row > span {
+  padding: 1rem;
+  border-right: 1px solid rgba(49, 80, 56, 0.11);
+  color: #4f604f;
+  line-height: 1.7;
+}
+
+.project-row > span:last-child {
+  border-right: 0;
+}
+
+.project-row strong {
+  display: block;
+  color: #203a2d;
+  font-family: "Noto Serif TC", serif;
+  font-size: 1rem;
+  line-height: 1.65;
+}
+
+.project-row small {
+  display: block;
+  margin-top: 0.45rem;
+  color: #8a642d;
+  font-size: 0.82rem;
+  letter-spacing: 0.03em;
+}
+
+.project-head {
+  background: rgba(36, 77, 58, 0.94);
+}
+
+.project-head > span {
+  color: #fbf6e9;
+  font-weight: 700;
+  letter-spacing: 0.05em;
+}
+
+.detailed-honors {
+  grid-template-columns: minmax(260px, 0.34fr) minmax(0, 0.66fr);
+}
+
+.credential-card {
+  grid-row: span 2;
+}
+
+.honor-ledger-card {
+  grid-column: auto;
+}
+
+.honor-list {
+  margin-top: 1.1rem;
+  border-top: 1px solid rgba(49, 80, 56, 0.13);
+}
+
+.honor-item {
+  display: grid;
+  grid-template-columns: 82px minmax(0, 1fr);
+  gap: 1rem;
+  padding: 1rem 0;
+  border-bottom: 1px solid rgba(49, 80, 56, 0.12);
+}
+
+.honor-item:last-child {
+  border-bottom: 0;
+  padding-bottom: 0;
+}
+
+.honor-item time {
+  font-family: "Cormorant Garamond", serif;
+  color: #8a642d;
+  font-size: 1.22rem;
+  font-weight: 700;
+}
+
+.honor-item h4 {
+  margin: 0;
+  color: #203a2d;
+  font-family: "Noto Serif TC", serif;
+  font-size: 1rem;
+  line-height: 1.7;
+}
+
+.honor-item p {
+  margin: 0.25rem 0 0;
+  color: #526451;
+  line-height: 1.65;
+}
+
+@media (max-width: 1100px) {
+  .detailed-research,
+  .detailed-honors {
+    grid-template-columns: 1fr;
+  }
+
+  .credential-card,
+  .honor-ledger-card {
+    grid-column: 1 / -1;
+    grid-row: auto;
+  }
+
+  .project-row {
+    grid-template-columns: 1fr;
+  }
+
+  .project-row > span {
+    border-right: 0;
+    border-bottom: 1px solid rgba(49, 80, 56, 0.1);
+  }
+
+  .project-row > span:last-child {
+    border-bottom: 0;
+  }
+
+  .project-head {
+    display: none;
+  }
+}
+
+@media (max-width: 760px) {
+  .academic-ledger {
+    border-radius: 1.15rem;
+  }
+
+  .ledger-heading,
+  .honor-item,
+  .publication-item.detailed {
+    grid-template-columns: 1fr;
+  }
+
+  .ledger-heading {
+    display: grid;
+  }
+}

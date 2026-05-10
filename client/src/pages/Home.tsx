@@ -17,6 +17,7 @@ import {
  * This page should feel like a carefully edited academic profile: warm ivory paper,
  * pine green hierarchy, aged-gold annotation details, restrained motion, and
  * integrated research-care-teaching narrative rather than a conventional CV list.
+ * Detailed academic records are presented as editorial ledgers for readability.
  */
 const heroImage =
   "https://d2xsxph8kpxj0f.cloudfront.net/310519663414221053/BmCPQuqMx2RaZ8YX6qfUEo/yu-rung-hero-editorial-9wpnpWxZWctb66UhJ6WmPU.webp";
@@ -87,50 +88,110 @@ const timeline = [
   },
 ];
 
-const publications = [
+const journalPublications = [
   {
     year: "2026",
-    title:
-      "Using a digital-based mindfulness curriculum to enhance healthy aging outcomes in community-dwelling older adults in Taiwan: mixed methods feasibility study.",
-    venue: "JMIR Human Factors, 13, e8416.",
+    citation:
+      "Wang, Y. R., Hsieh, P. L., Chang, C. C., Hsiao, C. C. & Hu, M. L. (2026). Using a digital-based mindfulness curriculum to enhance healthy aging outcomes in community-dwelling older adults in Taiwan: mixed methods feasibility study. JMIR Human Factors, 13, e8416.",
   },
   {
     year: "2025",
-    title:
-      "居家護理師對高齡者足部照護知識、態度及照護能力相關因素探討.",
-    venue: "護理雜誌, 72(5), 58–68.",
-    authors: "謝佩倫、呂郁芳、王俞蓉、陳靜敏",
+    citation:
+      "謝佩倫、呂郁芳、王俞蓉、陳靜敏. (2025). 居家護理師對高齡者足部照護知識、態度及照護能力相關因素探討. 護理雜誌, 72(5), 58–68.",
   },
   {
     year: "2025",
-    title: "人科蘊生的教學與服務學習―老醫館裡的新長照.",
-    venue: "大學教學實務與研究學刊, 9(1), 41–64.（通訊作者）",
+    citation:
+      "張嘉秀、王俞蓉（2025, In press）. 人科蘊生的教學與服務學習―老醫館裡的新長照. 大學教學實務與研究學刊, 9(1), 41–64.（通訊作者）",
   },
   {
     year: "2023",
-    title:
-      "Relationship between physical activity and perceptions of ageing from the perspective of healthy ageing among older people with frailty with chronic disease.",
-    venue: "BMC Nursing, 22:319.",
+    citation:
+      "Wang, Y. R., Lee, H. F., Hsieh, P. L., Chang, C. C. & Chen, C. M. (2023). Relationship between physical activity and perceptions of ageing from the perspective of healthy ageing among older people with frailty with chronic disease: a cross-sectional study. BMC Nursing, 22:319.",
   },
   {
     year: "2023",
-    title:
-      "Development of the Healthy Aging Perspectives Questionnaire Among Older Adults with Chronic Disease in Taiwan.",
-    venue: "Health & Social Care in the Community, 2023, 8238748.",
+    citation:
+      "Wang, Y. R., Lee, H. F., Hsieh, P. L., & Chen, C. M. (2023). Development of the Healthy Aging Perspectives Questionnaire Among Older Adults with Chronic Disease in Taiwan. Health & Social Care in the Community, 2023, 8238748.",
+  },
+  {
+    year: "2023",
+    citation:
+      "Hsieh, P. L., Wang, Y. R., & Huang, T. C. (2023). Exploring Key Factors Influencing Nursing Students’ Cognitive Load and Willingness to Serve Older Adults: Cross-sectional Descriptive Correlational Study. JMIR Serious Games, 11, e43203.",
   },
   {
     year: "2021",
-    title:
-      "Validating a Brief Aging Perception Questionnaire for Older Persons with Chronic Disease in Taiwan.",
-    venue: "Aging & Mental Health, 25(6), 1143–1150.",
+    citation:
+      "Wang, Y. R., Lee, H. F., & Chen, C. M. (2021). Validating a Brief Aging Perception Questionnaire (B-APQ) for Older Persons with Chronic Disease in Taiwan. Aging & Mental Health, 25(6), 1143–1150. DOI: 10.1080/13607863.2020.1734914",
+  },
+  {
+    year: "2021",
+    citation:
+      "岳芳如、徐韻婷、王俞蓉、辜漢章、許惟傑（2021）. 抗生素骨水泥降低全膝關節置換手術病人深部感染之成效. 台灣醫學, 25(5), 592–602.",
+  },
+  {
+    year: "2018",
+    citation:
+      "Ku, H., Cho, C., Wang Y., Chen, L., Yueh, F., Tian, Y, Tsai, Y., Liao, W. (2018). A Prospective Randomized Controlled Trial of Efficacy of Gum Chewing on Gastrointestinal Recovery after Laparoscopic Colorectal Surgery. Journal of Society of Colon and Rectal Surgeons. DOI: 10.6312/SCRSTW.2018.29(1).10609",
+  },
+  {
+    year: "2016",
+    citation:
+      "Lee, H., Kuo, C., Chien, T., & Wang, Y. (2016, Aug). A Meta-Analysis of the Effects of Coping Strategies on Reducing Nurse Burnout. Applied Nursing Research, 31, 100–110.",
   },
 ];
 
-const projects = [
-  "運用生成式 AI 提升實證護理課程之教學成效：從學習困境到精準輔助。",
-  "多元正念課程結合數位科技輔助學習介入社區高齡者於健康老化之成效。",
-  "運用虛擬實境結合體驗式學習提升症狀護理課程之學習成效。",
-  "國中技藝教育札根計畫與社區衰弱慢性病老人健康老化研究。",
+const bookChapters = [
+  "王俞蓉（2024）. 社區式長期照顧服務. 於胡月娟總校閱，長期照顧（八版，191–218）. 新文京。",
+  "王俞蓉（2021）. 呼吸系統功能障礙之護理—密閉式胸腔引流系統. 於陳敏麗總校閱，內外科護理技術（六版，208–221）. 新文京。",
+];
+
+const researchProjects = [
+  {
+    period: "2025/08/01–2026/07/31",
+    source: "教育部教學實踐計畫",
+    role: "計畫主持人",
+    title:
+      "運用生成式 AI 提升實證護理課程之教學成效：從學習困境到精準輔助",
+    code: "MOE-114-TPRMN-1070-017Y1",
+  },
+  {
+    period: "2024/05/01–2026/04/30",
+    source: "國家科學及技術委員會",
+    role: "計畫主持人",
+    title:
+      "多元正念課程結合數位科技輔助學習介入社區高齡者於健康老化之成效：隨機對照試驗研究",
+    code: "113-2410-H-255-001-MY2",
+  },
+  {
+    period: "2023/08/01–2024/07/31",
+    source: "教育部教學實踐計畫",
+    role: "計畫主持人",
+    title:
+      "運用虛擬實境結合體驗式學習提升症狀護理課程之學習成效—以新冠肺炎病人為例",
+    code: "EZRPF3N0471",
+  },
+  {
+    period: "2023/09/01–2024/08/31",
+    source: "台塑企業暨王長庚公益信託",
+    role: "計畫主持人",
+    title: "國中技藝教育札根計畫—嘉義縣東榮國中醫護課程",
+    code: "FCRPF6N0051",
+  },
+  {
+    period: "2022/08/01–2023/07/31",
+    source: "台塑企業暨王長庚公益信託",
+    role: "計畫主持人",
+    title: "國中技藝教育札根計畫—嘉義縣東榮國中醫護課程",
+    code: "FCRPF6M0041",
+  },
+  {
+    period: "2021/01–2021/12",
+    source: "台灣護理學會",
+    role: "計畫主持人",
+    title: "社區衰弱慢性病老人之身體活動、老化感知對健康老化觀點的影響",
+    code: "1101014",
+  },
 ];
 
 const teachingThemes = [
@@ -158,10 +219,21 @@ const credentials = [
 ];
 
 const honors = [
-  "2025 年優良社區護理人員",
-  "2023 年優良導師",
-  "指導學生於護理臨床情境實務技能競賽獲獎",
-  "多次獲實證護理與醫療品質競賽肯定",
+  { year: "2025", title: "優良社區護理人員", unit: "社區衛生護理學會" },
+  { year: "2023", title: "優良導師", unit: "長庚科技大學" },
+  {
+    year: "2023",
+    title:
+      "指導學生參加南丁格爾大仁盃技專校院護理臨床情境實務技能競賽，於護理專業技能實境競賽團體競賽獲第二名與優勝，病例閱讀與醫護術語團體競賽獲優勝，護理專業知識能力大挑戰個人賽獲優勝",
+    unit: "大仁科技大學",
+  },
+  { year: "2015", title: "提升照護品質全國實證競賽潛力獎", unit: "台灣實證護理學會" },
+  { year: "2014", title: "第 15 屆醫療品質獎實證醫學臨床運用組潛力獎", unit: "醫療品質策進會" },
+  { year: "2014", title: "績優護理人員", unit: "台南縣護理師護士公會" },
+  { year: "2013", title: "提升照護品質全國實證競賽金獎", unit: "台灣實證護理學會" },
+  { year: "2012", title: "實證護理競賽銅獎", unit: "台灣護理學會" },
+  { year: "2010", title: "實證護理競賽潛力獎", unit: "台灣護理學會" },
+  { year: "2001", title: "優良護理人員楷模", unit: "中山醫學大學附設醫院" },
 ];
 
 export default function Home() {
@@ -273,32 +345,64 @@ export default function Home() {
         </div>
       </section>
 
-      <section id="research" className="section-block research-section">
+      <section id="research" className="section-block research-section detailed-research">
         <div className="research-visual" style={{ backgroundImage: `url(${researchImage})` }} aria-hidden="true" />
         <div className="research-content">
           <div className="section-heading">
             <span>Profile 04</span>
-            <h2>研究成果與計畫主軸</h2>
+            <h2>期刊發表、專書章節與研究計畫</h2>
             <p>
-              研究成果聚焦健康老化觀點、慢性病高齡者、身體活動、老化感知、正念課程、數位介入與護理教育創新；下列為網站選摘之代表性期刊專論與研究方向。
+              依照需求，本區已從代表性成果改為詳細呈現。期刊發表以年份與完整引用資訊排列，研究計畫則呈現計畫名稱、經費來源、角色、執行期間與編號，方便學術履歷查閱。
             </p>
           </div>
-          <div className="publication-list">
-            {publications.map((pub) => (
-              <article className="publication-item" key={`${pub.year}-${pub.title}`}>
+
+          <div className="academic-ledger">
+            <div className="ledger-heading">
+              <h3>期刊專論發表</h3>
+              <span>{journalPublications.length} 篇</span>
+            </div>
+            {journalPublications.map((pub) => (
+              <article className="publication-item detailed" key={pub.citation}>
                 <span>{pub.year}</span>
-                <div>
-                  <h3>{pub.title}</h3>
-                  {pub.authors && <p className="authors">{pub.authors}</p>}
-                  <p>{pub.venue}</p>
-                </div>
+                <p>{pub.citation}</p>
               </article>
             ))}
           </div>
-          <div className="project-strip">
-            {projects.map((project) => (
-              <p key={project}>{project}</p>
+
+          <div className="academic-ledger compact-ledger">
+            <div className="ledger-heading">
+              <h3>專書章節</h3>
+              <span>{bookChapters.length} 篇</span>
+            </div>
+            {bookChapters.map((chapter) => (
+              <p className="chapter-item" key={chapter}>{chapter}</p>
             ))}
+          </div>
+
+          <div className="academic-ledger project-ledger">
+            <div className="ledger-heading">
+              <h3>研究計畫</h3>
+              <span>{researchProjects.length} 件</span>
+            </div>
+            <div className="project-table" role="table" aria-label="研究計畫詳細清單">
+              <div className="project-row project-head" role="row">
+                <span role="columnheader">期間</span>
+                <span role="columnheader">計畫名稱</span>
+                <span role="columnheader">經費來源</span>
+                <span role="columnheader">角色</span>
+              </div>
+              {researchProjects.map((project) => (
+                <div className="project-row" role="row" key={`${project.period}-${project.code}`}>
+                  <span role="cell">{project.period}</span>
+                  <span role="cell">
+                    <strong>{project.title}</strong>
+                    <small>計畫編號：{project.code}</small>
+                  </span>
+                  <span role="cell">{project.source}</span>
+                  <span role="cell">{project.role}</span>
+                </div>
+              ))}
+            </div>
           </div>
         </div>
       </section>
@@ -308,7 +412,7 @@ export default function Home() {
           <span>Profile 05</span>
           <h2>教學經歷與相關訓練的綜整呈現</h2>
           <p>
-            依照需求，本網站不逐項列出所有授課與訓練紀錄，而是整合為三個具有延展性的教學服務面向，凸顯其長期投入與可合作主題。
+            依照原先需求，本網站仍不逐項列出所有授課與訓練紀錄，而是整合為三個具有延展性的教學服務面向，凸顯其長期投入與可合作主題。
           </p>
         </div>
         <div className="teaching-layout">
@@ -327,10 +431,13 @@ export default function Home() {
       <section id="honors" className="section-block honors-section">
         <div className="section-heading">
           <span>Profile 06</span>
-          <h2>專業認證、榮譽與社會服務</h2>
+          <h2>專業認證、榮譽事蹟與社會服務</h2>
+          <p>
+            榮譽事蹟已改為詳細清單，保留年度、獲獎內容與頒發或競賽單位；專業認證與社會服務則作為支持其學術與公共貢獻的補充脈絡。
+          </p>
         </div>
-        <div className="honors-grid">
-          <article className="ledger-card">
+        <div className="honors-grid detailed-honors">
+          <article className="ledger-card credential-card">
             <Brain size={26} />
             <h3>專業認證與審查角色</h3>
             <div className="tag-cloud">
@@ -339,12 +446,18 @@ export default function Home() {
               ))}
             </div>
           </article>
-          <article className="ledger-card">
+          <article className="ledger-card wide-card honor-ledger-card">
             <Award size={26} />
             <h3>榮譽事蹟</h3>
-            <div className="quiet-list">
-              {honors.map((item) => (
-                <p key={item}>{item}</p>
+            <div className="honor-list">
+              {honors.map((honor) => (
+                <article className="honor-item" key={`${honor.year}-${honor.title}`}>
+                  <time>{honor.year}</time>
+                  <div>
+                    <h4>{honor.title}</h4>
+                    <p>{honor.unit}</p>
+                  </div>
+                </article>
               ))}
             </div>
           </article>
@@ -352,7 +465,7 @@ export default function Home() {
             <Microscope size={26} />
             <h3>學術與公共服務</h3>
             <p>
-              服務範圍涵蓋台灣社區衛生護理學會、嘉義長庚醫院護理顧問與助理研究員、BMC 系列期刊審查，以及考科藍臺灣研究中心中文翻譯志工，展現其對護理專業社群、研究品質與公共知識轉譯的持續投入。
+              服務範圍涵蓋台灣社區衛生護理學會理事與秘書長、嘉義長庚醫院護理顧問與助理研究員、BMC Geriatric、BMC Nursing、BMC Public Health、BMC Medical Education、BMC Psychology、BMC Psychiatry 等期刊審查，以及考科藍臺灣研究中心中文翻譯志工，展現其對護理專業社群、研究品質與公共知識轉譯的持續投入。
             </p>
           </article>
         </div>
