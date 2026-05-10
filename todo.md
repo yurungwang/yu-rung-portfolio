@@ -61,3 +61,8 @@
 - [x] 確認職涯分類與臨床照護說明已使用使用者最新最終版本。
 - [x] 執行 TypeScript 檢查與正式建置。
 - [x] 保存新 checkpoint 並回報版本。
+
+## 再次同步 GitHub 最新變更
+
+- [ ] 保存目前專案狀態並同步至已連接的 GitHub repository。
+- [ ] 回報同步 checkpoint 與後續檢查建議。
