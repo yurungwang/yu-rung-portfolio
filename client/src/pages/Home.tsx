@@ -65,26 +65,118 @@ const expertise = [
   },
 ];
 
-const timeline = [
+const careerEntries = [
   {
-    period: "1998–2015",
-    title: "臨床照護與實證能力養成",
-    text: "從外科加護、呼吸照護中心、加護醫學部與心臟內科加護病房累積臨床照護經驗，並逐步投入實證護理、學生實習與護理研究發展。",
+    category: "現職與高等教育",
+    period: "2026.08–迄今",
+    institution: "國立中山大學",
+    unit: "護理系",
+    title: "助理教授",
+    note: "延續健康老化、長期照護、正念介入與數位科技輔助教學之研究與課程發展。",
   },
   {
-    period: "2015–2020",
-    title: "護理管理與長照實務拓展",
-    text: "於腸胃內科病房、居家護理所、日間照顧中心、居家服務中心與出院準備服務中擔任管理角色，深化急性醫療到社區長照的整合視野。",
+    category: "現職與高等教育",
+    period: "2021.02–2026.07",
+    institution: "長庚科技大學",
+    unit: "護理系",
+    title: "助理教授兼任課程組長",
+    note: "投入護理教育、課程設計、研究計畫主持與學生專業能力培育。",
   },
   {
-    period: "2017",
-    title: "UCSF 老人護理國際訪問經驗",
-    text: "赴美國加州大學舊金山分校護理學院與 John A. Hartford Center of Gerontological Nursing Excellence 進修，強化老人護理與國際研究訓練。",
+    category: "長照與護理管理",
+    period: "2019.05–2020.02",
+    institution: "奇美醫療財團法人柳營奇美醫院",
+    unit: "腸胃內科病房",
+    title: "護理長",
+    note: "負責病房管理與臨床照護品質推動。",
   },
   {
-    period: "2021–迄今",
-    title: "高等教育、研究主持與課程創新",
-    text: "在護理高等教育場域中結合健康老化、正念介入、數位科技與實證護理，推動研究計畫、課程設計與護理人才培育。",
+    category: "長照與護理管理",
+    period: "2017.10–2019.05",
+    institution: "奇美醫療財團法人柳營奇美醫院附設居家護理所",
+    unit: "居家護理、日間照顧中心、居家服務中心、出院準備服務",
+    title: "護理長",
+    note: "整合急性醫療後端銜接、居家護理與社區長照服務。",
+  },
+  {
+    category: "長照與護理管理",
+    period: "2015.10–2017.01",
+    institution: "奇美醫療財團法人柳營奇美醫院",
+    unit: "腸胃內科病房",
+    title: "副護理長",
+    note: "承接病房護理行政、臨床協調與照護流程管理。",
+  },
+  {
+    category: "臨床照護與研究發展",
+    period: "2013.06–2015.10",
+    institution: "奇美醫療財團法人奇美醫院",
+    unit: "心臟內科加護病房",
+    title: "小組長",
+    note: "於急重症照護場域累積團隊帶領與臨床決策經驗。",
+  },
+  {
+    category: "臨床照護與研究發展",
+    period: "2008.08–2013.05",
+    institution: "奇美醫療財團法人奇美醫院",
+    unit: "護理研究發展委員會、學生實習委員會",
+    title: "護理師",
+    note: "兼具臨床照護、護理研究推動與學生實習培育經驗。",
+  },
+  {
+    category: "臨床照護與研究發展",
+    period: "2004.05–2006.08",
+    institution: "奇美醫療財團法人柳營奇美醫院",
+    unit: "加護醫學部",
+    title: "臨床技師",
+    note: "深化加護醫學與急重症照護基礎。",
+  },
+  {
+    category: "臨床照護與研究發展",
+    period: "2000.01–2004.04",
+    institution: "中山醫學大學附設醫院",
+    unit: "呼吸照護中心",
+    title: "護理師",
+    note: "累積呼吸照護與長期急性照護相關臨床經驗。",
+  },
+  {
+    category: "臨床照護與研究發展",
+    period: "1998.09–2000.01",
+    institution: "中山醫學大學附設醫院",
+    unit: "外科加護病房",
+    title: "護理師",
+    note: "自外科加護病房建立急症加護照護能力。",
+  },
+  {
+    category: "教學與研究養成",
+    period: "2009.02–2013.01",
+    institution: "輔英科技大學",
+    unit: "護理學院",
+    title: "兼任講師",
+    note: "銜接臨床經驗與護理教育實務。",
+  },
+  {
+    category: "教學與研究養成",
+    period: "2007.08–2008.07",
+    institution: "國立成功大學護理學系",
+    unit: "國科會計畫",
+    title: "研究助理",
+    note: "參與學術研究流程與護理研究訓練。",
+  },
+  {
+    category: "教學與研究養成",
+    period: "2006.09–2007.06",
+    institution: "國立成功大學護理學系",
+    unit: "成人護理學",
+    title: "教學助教",
+    note: "支援成人護理學教學，奠定後續高等教育經驗。",
+  },
+  {
+    category: "國際研修",
+    period: "2017.03–2017.09",
+    institution: "美國加州大學舊金山分校（UCSF）護理學院",
+    unit: "UCSF John A. Hartford Center of Gerontological Nursing Excellence",
+    title: "訪問學者",
+    note: "修習家庭理論、科學寫作、社區參與式研究、量性測量與急慢性疾病管理等課程，拓展老人護理國際研究視野。",
   },
 ];
 
@@ -329,16 +421,21 @@ export default function Home() {
           <span>Profile 03</span>
           <h2>職涯路徑：照護現場、管理實務與教學研究的連續線</h2>
           <p>
-            網站以階段式時間線綜整職涯脈絡，保留履歷的完整性，同時避免逐項堆疊職稱與單位，讓訪客能迅速理解專業演進。
+            依照最新需求，本區已改為詳細列出主要任職、教學研究養成與國際研修紀錄。內容依職涯脈絡分組呈現，讓訪客能同時看見完整履歷軌跡與專業轉折。
           </p>
         </div>
-        <div className="timeline">
-          {timeline.map((item) => (
-            <article className="timeline-item" key={item.period}>
-              <time>{item.period}</time>
-              <div>
+        <div className="career-ledger" aria-label="職涯路徑詳細清單">
+          {careerEntries.map((item) => (
+            <article className="career-entry" key={`${item.period}-${item.title}-${item.unit}`}>
+              <div className="career-meta">
+                <span>{item.category}</span>
+                <time>{item.period}</time>
+              </div>
+              <div className="career-detail">
                 <h3>{item.title}</h3>
-                <p>{item.text}</p>
+                <p className="career-place">{item.institution}</p>
+                <p className="career-unit">{item.unit}</p>
+                <p>{item.note}</p>
               </div>
             </article>
           ))}

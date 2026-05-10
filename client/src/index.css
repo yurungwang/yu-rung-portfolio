@@ -1127,3 +1127,116 @@ h3 {
     display: grid;
   }
 }
+
+/* Detailed career path ledger for Humanistic Medical Editorialism. */
+.career-ledger {
+  position: relative;
+  display: grid;
+  gap: 0;
+  margin-top: clamp(2rem, 4vw, 3.2rem);
+  border: 1px solid rgba(49, 80, 56, 0.15);
+  border-radius: 1.7rem;
+  overflow: hidden;
+  background:
+    linear-gradient(135deg, rgba(255, 252, 244, 0.94), rgba(246, 239, 220, 0.82)),
+    radial-gradient(circle at 12% 10%, rgba(172, 132, 65, 0.12), transparent 34%);
+  box-shadow: 0 24px 60px rgba(72, 69, 45, 0.1);
+}
+
+.career-ledger::before {
+  content: "";
+  position: absolute;
+  top: 1.2rem;
+  bottom: 1.2rem;
+  left: clamp(7.6rem, 18vw, 14rem);
+  width: 1px;
+  background: linear-gradient(to bottom, transparent, rgba(49, 80, 56, 0.34), transparent);
+}
+
+.career-entry {
+  position: relative;
+  display: grid;
+  grid-template-columns: minmax(145px, 0.34fr) minmax(0, 0.66fr);
+  gap: clamp(1.1rem, 2.8vw, 2.2rem);
+  padding: clamp(1.1rem, 2.4vw, 1.55rem) clamp(1.1rem, 3vw, 2rem);
+  border-bottom: 1px solid rgba(49, 80, 56, 0.12);
+}
+
+.career-entry:last-child {
+  border-bottom: 0;
+}
+
+.career-entry::after {
+  content: "";
+  position: absolute;
+  top: 1.55rem;
+  left: clamp(7.35rem, 17.8vw, 13.75rem);
+  width: 0.58rem;
+  height: 0.58rem;
+  border-radius: 999px;
+  background: #aa7f37;
+  box-shadow: 0 0 0 6px rgba(170, 127, 55, 0.12);
+}
+
+.career-meta span {
+  display: inline-flex;
+  align-items: center;
+  width: fit-content;
+  padding: 0.25rem 0.62rem;
+  border: 1px solid rgba(49, 80, 56, 0.16);
+  border-radius: 999px;
+  background: rgba(255, 252, 244, 0.76);
+  color: #315038;
+  font-size: 0.78rem;
+  font-weight: 700;
+  letter-spacing: 0.06em;
+}
+
+.career-meta time {
+  display: block;
+  margin-top: 0.72rem;
+  color: #8a642d;
+  font-family: "Cormorant Garamond", "Noto Serif TC", serif;
+  font-size: clamp(1.1rem, 2vw, 1.45rem);
+  font-weight: 700;
+  letter-spacing: 0.02em;
+}
+
+.career-detail h3 {
+  margin: 0;
+  color: #203a2d;
+  font-family: "Noto Serif TC", serif;
+  font-size: clamp(1.08rem, 2vw, 1.35rem);
+  line-height: 1.55;
+}
+
+.career-place {
+  margin: 0.35rem 0 0;
+  color: #315038;
+  font-weight: 700;
+  line-height: 1.7;
+}
+
+.career-unit {
+  margin: 0.1rem 0 0;
+  color: #8a642d;
+  line-height: 1.68;
+}
+
+.career-detail p:last-child {
+  margin: 0.55rem 0 0;
+  color: #526451;
+  line-height: 1.78;
+}
+
+@media (max-width: 760px) {
+  .career-ledger::before,
+  .career-entry::after {
+    display: none;
+  }
+
+  .career-entry {
+    grid-template-columns: 1fr;
+    gap: 0.75rem;
+  }
+}
