@@ -27,7 +27,7 @@ const careImage =
   "https://d2xsxph8kpxj0f.cloudfront.net/310519663414221053/BmCPQuqMx2RaZ8YX6qfUEo/yu-rung-care-community-Q9KpJKJ5sfnZyGpJH78JEa.webp";
 const patternImage =
   "https://d2xsxph8kpxj0f.cloudfront.net/310519663414221053/BmCPQuqMx2RaZ8YX6qfUEo/yu-rung-timeline-pattern-RaPnkyxe78NeHXNSWE3J69.webp";
-const profilePhoto = "/manus-storage/yu-rung-profile-photo_7b3b464a.jpg";
+const profilePhoto = "https://yurungfolio-bmcpquqm.manus.space/manus-storage/yu-rung-profile-photo_fd2050b1.jpg";
 
 const navItems = [
   { href: "#profile", label: "專業概述" },
@@ -68,7 +68,7 @@ const expertise = [
 
 const careerEntries = [
   {
-    category: "現職與高等教育",
+    category: "高等教育及研究發展",
     period: "2026.08–迄今",
     institution: "國立中山大學",
     unit: "護理系",
@@ -76,7 +76,7 @@ const careerEntries = [
     note: "延續健康老化、長期照護、正念介入與數位科技輔助教學之研究與課程發展。",
   },
   {
-    category: "現職與高等教育",
+    category: "高等教育及研究發展",
     period: "2021.02–2026.07",
     institution: "長庚科技大學",
     unit: "護理系",
@@ -84,7 +84,7 @@ const careerEntries = [
     note: "投入護理教育、課程設計、研究計畫主持與學生專業能力培育。",
   },
   {
-    category: "長照與護理管理",
+    category: "臨床照護與護理管理",
     period: "2019.05–2020.02",
     institution: "奇美醫療財團法人柳營奇美醫院",
     unit: "腸胃內科病房",
@@ -92,7 +92,7 @@ const careerEntries = [
     note: "負責病房管理與臨床照護品質推動。",
   },
   {
-    category: "長照與護理管理",
+    category: "臨床照護與護理管理",
     period: "2017.10–2019.05",
     institution: "奇美醫療財團法人柳營奇美醫院附設居家護理所",
     unit: "居家護理、日間照顧中心、居家服務中心、出院準備服務",
@@ -100,7 +100,7 @@ const careerEntries = [
     note: "整合急性醫療後端銜接、居家護理與社區長照服務。",
   },
   {
-    category: "長照與護理管理",
+    category: "臨床照護與護理管理",
     period: "2015.10–2017.01",
     institution: "奇美醫療財團法人柳營奇美醫院",
     unit: "腸胃內科病房",
@@ -108,7 +108,7 @@ const careerEntries = [
     note: "承接病房護理行政、臨床協調與照護流程管理。",
   },
   {
-    category: "臨床照護與研究發展",
+    category: "臨床照護",
     period: "2013.06–2015.10",
     institution: "奇美醫療財團法人奇美醫院",
     unit: "心臟內科加護病房",
@@ -116,7 +116,7 @@ const careerEntries = [
     note: "於急重症照護場域累積團隊帶領與臨床決策經驗。",
   },
   {
-    category: "臨床照護與研究發展",
+    category: "臨床照護",
     period: "2008.08–2013.05",
     institution: "奇美醫療財團法人奇美醫院",
     unit: "護理研究發展委員會、學生實習委員會",
@@ -124,15 +124,15 @@ const careerEntries = [
     note: "兼具臨床照護、護理研究推動與學生實習培育經驗。",
   },
   {
-    category: "臨床照護與研究發展",
+    category: "臨床照護",
     period: "2004.05–2006.08",
     institution: "奇美醫療財團法人柳營奇美醫院",
     unit: "加護醫學部",
     title: "臨床技師",
-    note: "深化加護醫學與急重症照護基礎。",
+    note: "深化加護醫學與急重症照護基礎，執行專科護理師業務輔助醫師照護。",
   },
   {
-    category: "臨床照護與研究發展",
+    category: "臨床照護",
     period: "2000.01–2004.04",
     institution: "中山醫學大學附設醫院",
     unit: "呼吸照護中心",
@@ -140,7 +140,7 @@ const careerEntries = [
     note: "累積呼吸照護與長期急性照護相關臨床經驗。",
   },
   {
-    category: "臨床照護與研究發展",
+    category: "臨床照護",
     period: "1998.09–2000.01",
     institution: "中山醫學大學附設醫院",
     unit: "外科加護病房",
@@ -356,7 +356,7 @@ export default function Home() {
       >
         <div className="hero-content reveal-block">
           <p className="eyebrow">Nursing · Healthy Aging · Mindfulness · Digital Learning</p>
-          <h1>以研究、教學與照護實踐促進健康老化</h1>
+          <h1>王俞蓉 博士</h1>
           <p className="hero-lead">
             王俞蓉助理教授專業橫跨長期照護、慢性病照護、老人照護、正念減壓與數位科技輔助教學，將臨床經驗、社區實務與學術研究整合為具溫度的護理教育與健康老化行動。
           </p>
@@ -374,8 +374,8 @@ export default function Home() {
             <img src={profilePhoto} alt="王俞蓉個人形象照" />
           </figure>
           <span className="folio">Profile 01</span>
-          <h2>王俞蓉 Yu-Rung Wang</h2>
-          <p>國立中山大學護理系 助理教授</p>
+          <h2 style={{ fontSize: '24px', textAlign: 'center' }}>國立中山大學護理學系</h2>
+          <p style={{ textAlign: 'center', fontSize: '20px' }}>助理教授</p>
           <div className="mini-grid">
             <span>健康老化</span>
             <span>長期照護</span>
@@ -392,7 +392,7 @@ export default function Home() {
         </div>
         <div className="intro-copy">
           <p>
-            王俞蓉助理教授的專業路徑並非單一學術履歷，而是一條由急重症臨床照護、護理行政、居家與社區長照，再延伸至高等教育與國際研究訓練的累積。她的工作聚焦於高齡與慢性病族群如何在社區中維持健康、尊嚴與生活品質，並透過正念與數位科技探索新的教育與介入形式。
+            王俞蓉助理教授的專業路徑並非單一學術履歷，而是由急重症臨床照護、護理行政、居家與社區長照，再延伸至高等教育與國際研究訓練的累積。她的研究聚焦於兩個方向，其一為高齡與慢性病族群透過正念與數位科技探索新的教育與介入形式，在社區中維持健康、尊嚴與生活品質。再者於護理教學中結合運用數位科技輔助教學，期許能提升學生學習成效。
           </p>
           <div className="education-note profile-note-with-photo">
             <GraduationCap size={22} />
@@ -424,9 +424,9 @@ export default function Home() {
       >
         <div className="section-heading narrow">
           <span>Profile 03</span>
-          <h2>職涯路徑：照護現場、管理實務與教學研究的連續線</h2>
+          <h2>職涯路徑</h2>
           <p>
-            依照最新需求，本區已改為詳細列出主要任職、教學研究養成與國際研修紀錄。內容依職涯脈絡分組呈現，讓訪客能同時看見完整履歷軌跡與專業轉折。
+            照護現場、管理實務與教學研究的連續線
           </p>
         </div>
         <div className="career-ledger" aria-label="職涯路徑詳細清單">
@@ -452,9 +452,9 @@ export default function Home() {
         <div className="research-content">
           <div className="section-heading">
             <span>Profile 04</span>
-            <h2>期刊發表、專書章節與研究計畫</h2>
+            <h2>學術研究</h2>
             <p>
-              依照需求，本區已從代表性成果改為詳細呈現。期刊發表以年份與完整引用資訊排列，研究計畫則呈現計畫名稱、經費來源、角色、執行期間與編號，方便學術履歷查閱。
+              期刊發表、專書章節與研究計畫
             </p>
           </div>
 
@@ -512,9 +512,9 @@ export default function Home() {
       <section id="teaching" className="section-block teaching-section">
         <div className="section-heading narrow">
           <span>Profile 05</span>
-          <h2>教學經歷與相關訓練的綜整呈現</h2>
+          <h2>教學經歷與相關訓練</h2>
           <p>
-            依照原先需求，本網站仍不逐項列出所有授課與訓練紀錄，而是整合為三個具有延展性的教學服務面向，凸顯其長期投入與可合作主題。
+            護理專業教學
           </p>
         </div>
         <div className="teaching-layout">
@@ -535,7 +535,7 @@ export default function Home() {
           <span>Profile 06</span>
           <h2>專業認證、榮譽事蹟與社會服務</h2>
           <p>
-            榮譽事蹟已改為詳細清單，保留年度、獲獎內容與頒發或競賽單位；專業認證與社會服務則作為支持其學術與公共貢獻的補充脈絡。
+            獲獎及護理專業認證
           </p>
         </div>
         <div className="honors-grid detailed-honors">
