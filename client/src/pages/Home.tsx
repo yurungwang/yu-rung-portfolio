@@ -27,6 +27,7 @@ const careImage =
   "https://d2xsxph8kpxj0f.cloudfront.net/310519663414221053/BmCPQuqMx2RaZ8YX6qfUEo/yu-rung-care-community-Q9KpJKJ5sfnZyGpJH78JEa.webp";
 const patternImage =
   "https://d2xsxph8kpxj0f.cloudfront.net/310519663414221053/BmCPQuqMx2RaZ8YX6qfUEo/yu-rung-timeline-pattern-RaPnkyxe78NeHXNSWE3J69.webp";
+const profilePhoto = "/manus-storage/yu-rung-profile-photo_7b3b464a.jpg";
 
 const navItems = [
   { href: "#profile", label: "專業概述" },
@@ -369,6 +370,9 @@ export default function Home() {
           </div>
         </div>
         <aside className="hero-card reveal-block delay-1" aria-label="個人摘要">
+          <figure className="hero-portrait-frame">
+            <img src={profilePhoto} alt="王俞蓉個人形象照" />
+          </figure>
           <span className="folio">Profile 01</span>
           <h2>王俞蓉 Yu-Rung Wang</h2>
           <p>國立中山大學護理系 助理教授</p>
@@ -390,11 +394,12 @@ export default function Home() {
           <p>
             王俞蓉助理教授的專業路徑並非單一學術履歷，而是一條由急重症臨床照護、護理行政、居家與社區長照，再延伸至高等教育與國際研究訓練的累積。她的工作聚焦於高齡與慢性病族群如何在社區中維持健康、尊嚴與生活品質，並透過正念與數位科技探索新的教育與介入形式。
           </p>
-          <div className="education-note">
+          <div className="education-note profile-note-with-photo">
             <GraduationCap size={22} />
             <p>
               博士畢業於國立成功大學醫學院護理系國際博士班，並曾赴 UCSF 護理學院 John A. Hartford Center of Gerontological Nursing Excellence 擔任訪問學者，形塑老人護理與國際研究視野。
             </p>
+            <img src={profilePhoto} alt="王俞蓉於國際學術研討會現場合影" />
           </div>
         </div>
       </section>
