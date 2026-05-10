@@ -46,4 +46,11 @@
 - [x] 確認 GitHub Pages 子路徑部署所需的 base 設定。
 - [x] 建立 GitHub Actions workflow 以自動建置並發布到 GitHub Pages。
 - [x] 執行本地建置驗證。
-- [ ] 保存 checkpoint 並提供使用者後續啟用說明。
+- [x] 保存 checkpoint 並提供使用者後續啟用說明。
+
+## 視覺編輯後驗證與保存
+
+- [x] 檢查 Home.tsx 中使用者最新文字與樣式調整是否完整套用。
+- [x] 修正視覺編輯器可能產生的 JSX 重複 style 屬性。
+- [x] 執行專案建置驗證。
+- [ ] 保存新 checkpoint 並回報版本。

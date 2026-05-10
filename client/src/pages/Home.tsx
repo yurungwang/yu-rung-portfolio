@@ -356,7 +356,7 @@ export default function Home() {
       >
         <div className="hero-content reveal-block">
           <p className="eyebrow">Nursing · Healthy Aging · Mindfulness · Digital Learning</p>
-          <h1>以研究、教學與照護實踐促進健康老化</h1>
+          <h1>王俞蓉 博士</h1>
           <p className="hero-lead">
             王俞蓉助理教授專業橫跨長期照護、慢性病照護、老人照護、正念減壓與數位科技輔助教學，將臨床經驗、社區實務與學術研究整合為具溫度的護理教育與健康老化行動。
           </p>
@@ -374,8 +374,8 @@ export default function Home() {
             <img src={profilePhoto} alt="王俞蓉個人形象照" />
           </figure>
           <span className="folio">Profile 01</span>
-          <h2>王俞蓉 Yu-Rung Wang</h2>
-          <p>國立中山大學護理系 助理教授</p>
+          <h2 style={{ fontSize: '24px', textAlign: 'center' }}>國立中山大學護理學系</h2>
+          <p style={{ textAlign: 'center', fontSize: '20px' }}>助理教授</p>
           <div className="mini-grid">
             <span>健康老化</span>
             <span>長期照護</span>
@@ -424,9 +424,9 @@ export default function Home() {
       >
         <div className="section-heading narrow">
           <span>Profile 03</span>
-          <h2>職涯路徑：照護現場、管理實務與教學研究的連續線</h2>
+          <h2>職涯路徑</h2>
           <p>
-            依照最新需求，本區已改為詳細列出主要任職、教學研究養成與國際研修紀錄。內容依職涯脈絡分組呈現，讓訪客能同時看見完整履歷軌跡與專業轉折。
+            照護現場、管理實務與教學研究的連續線
           </p>
         </div>
         <div className="career-ledger" aria-label="職涯路徑詳細清單">
@@ -452,9 +452,9 @@ export default function Home() {
         <div className="research-content">
           <div className="section-heading">
             <span>Profile 04</span>
-            <h2>期刊發表、專書章節與研究計畫</h2>
+            <h2>學術研究</h2>
             <p>
-              依照需求，本區已從代表性成果改為詳細呈現。期刊發表以年份與完整引用資訊排列，研究計畫則呈現計畫名稱、經費來源、角色、執行期間與編號，方便學術履歷查閱。
+              期刊發表、專書章節與研究計畫
             </p>
           </div>
 
@@ -512,9 +512,9 @@ export default function Home() {
       <section id="teaching" className="section-block teaching-section">
         <div className="section-heading narrow">
           <span>Profile 05</span>
-          <h2>教學經歷與相關訓練的綜整呈現</h2>
+          <h2>教學經歷與相關訓練</h2>
           <p>
-            依照原先需求，本網站仍不逐項列出所有授課與訓練紀錄，而是整合為三個具有延展性的教學服務面向，凸顯其長期投入與可合作主題。
+            護理專業教學
           </p>
         </div>
         <div className="teaching-layout">
@@ -535,7 +535,7 @@ export default function Home() {
           <span>Profile 06</span>
           <h2>專業認證、榮譽事蹟與社會服務</h2>
           <p>
-            榮譽事蹟已改為詳細清單，保留年度、獲獎內容與頒發或競賽單位；專業認證與社會服務則作為支持其學術與公共貢獻的補充脈絡。
+            獲獎及護理專業認證
           </p>
         </div>
         <div className="honors-grid detailed-honors">
