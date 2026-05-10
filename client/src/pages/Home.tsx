@@ -195,7 +195,7 @@ const journalPublications = [
   {
     year: "2025",
     citation:
-      "張嘉秀、王俞蓉（2025, In press）. 人科蘊生的教學與服務學習―老醫館裡的新長照. 大學教學實務與研究學刊, 9(1), 41–64.（通訊作者）",
+      "張嘉秀、王俞蓉*（2025, In press）. 人科蘊生的教學與服務學習―老醫館裡的新長照. 大學教學實務與研究學刊, 9(1), 41–64.",
   },
   {
     year: "2023",
@@ -465,7 +465,7 @@ export default function Home() {
             </div>
             {journalPublications.map((pub) => (
               <article className="publication-item detailed" key={pub.citation}>
-                <span>{pub.year}</span>
+                <span style={{ fontSize: '24px' }}>{pub.year}</span>
                 <p>{pub.citation}</p>
               </article>
             ))}
