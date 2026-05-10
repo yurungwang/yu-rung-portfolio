@@ -68,7 +68,7 @@ const expertise = [
 
 const careerEntries = [
   {
-    category: "現職與高等教育",
+    category: "高等教育及研究發展",
     period: "2026.08–迄今",
     institution: "國立中山大學",
     unit: "護理系",
@@ -76,7 +76,7 @@ const careerEntries = [
     note: "延續健康老化、長期照護、正念介入與數位科技輔助教學之研究與課程發展。",
   },
   {
-    category: "現職與高等教育",
+    category: "高等教育及研究發展",
     period: "2021.02–2026.07",
     institution: "長庚科技大學",
     unit: "護理系",
@@ -84,7 +84,7 @@ const careerEntries = [
     note: "投入護理教育、課程設計、研究計畫主持與學生專業能力培育。",
   },
   {
-    category: "長照與護理管理",
+    category: "臨床照護與護理管理",
     period: "2019.05–2020.02",
     institution: "奇美醫療財團法人柳營奇美醫院",
     unit: "腸胃內科病房",
@@ -92,7 +92,7 @@ const careerEntries = [
     note: "負責病房管理與臨床照護品質推動。",
   },
   {
-    category: "長照與護理管理",
+    category: "臨床照護與護理管理",
     period: "2017.10–2019.05",
     institution: "奇美醫療財團法人柳營奇美醫院附設居家護理所",
     unit: "居家護理、日間照顧中心、居家服務中心、出院準備服務",
@@ -100,7 +100,7 @@ const careerEntries = [
     note: "整合急性醫療後端銜接、居家護理與社區長照服務。",
   },
   {
-    category: "長照與護理管理",
+    category: "臨床照護與護理管理",
     period: "2015.10–2017.01",
     institution: "奇美醫療財團法人柳營奇美醫院",
     unit: "腸胃內科病房",
@@ -108,7 +108,7 @@ const careerEntries = [
     note: "承接病房護理行政、臨床協調與照護流程管理。",
   },
   {
-    category: "臨床照護與研究發展",
+    category: "臨床照護",
     period: "2013.06–2015.10",
     institution: "奇美醫療財團法人奇美醫院",
     unit: "心臟內科加護病房",
@@ -116,7 +116,7 @@ const careerEntries = [
     note: "於急重症照護場域累積團隊帶領與臨床決策經驗。",
   },
   {
-    category: "臨床照護與研究發展",
+    category: "臨床照護",
     period: "2008.08–2013.05",
     institution: "奇美醫療財團法人奇美醫院",
     unit: "護理研究發展委員會、學生實習委員會",
@@ -124,15 +124,15 @@ const careerEntries = [
     note: "兼具臨床照護、護理研究推動與學生實習培育經驗。",
   },
   {
-    category: "臨床照護與研究發展",
+    category: "臨床照護",
     period: "2004.05–2006.08",
     institution: "奇美醫療財團法人柳營奇美醫院",
     unit: "加護醫學部",
     title: "臨床技師",
-    note: "深化加護醫學與急重症照護基礎。",
+    note: "深化加護醫學與急重症照護基礎，執行專科護理師業務輔助醫師照護。",
   },
   {
-    category: "臨床照護與研究發展",
+    category: "臨床照護",
     period: "2000.01–2004.04",
     institution: "中山醫學大學附設醫院",
     unit: "呼吸照護中心",
@@ -140,7 +140,7 @@ const careerEntries = [
     note: "累積呼吸照護與長期急性照護相關臨床經驗。",
   },
   {
-    category: "臨床照護與研究發展",
+    category: "臨床照護",
     period: "1998.09–2000.01",
     institution: "中山醫學大學附設醫院",
     unit: "外科加護病房",
@@ -392,7 +392,7 @@ export default function Home() {
         </div>
         <div className="intro-copy">
           <p>
-            王俞蓉助理教授的專業路徑並非單一學術履歷，而是一條由急重症臨床照護、護理行政、居家與社區長照，再延伸至高等教育與國際研究訓練的累積。她的工作聚焦於高齡與慢性病族群如何在社區中維持健康、尊嚴與生活品質，並透過正念與數位科技探索新的教育與介入形式。
+            王俞蓉助理教授的專業路徑並非單一學術履歷，而是由急重症臨床照護、護理行政、居家與社區長照，再延伸至高等教育與國際研究訓練的累積。她的研究聚焦於兩個方向，其一為高齡與慢性病族群透過正念與數位科技探索新的教育與介入形式，在社區中維持健康、尊嚴與生活品質。再者於護理教學中結合運用數位科技輔助教學，期許能提升學生學習成效。
           </p>
           <div className="education-note profile-note-with-photo">
             <GraduationCap size={22} />
