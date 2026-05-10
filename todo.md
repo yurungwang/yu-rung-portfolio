@@ -33,3 +33,17 @@
 - [x] 確認期刊文字修正為「張嘉秀、王俞蓉*（2025, In press）...」且移除末尾「（通訊作者）」文字。
 - [x] 確認指定年份由 2018 改為 2014。
 - [x] 執行建置檢查並保存視覺編輯後的新版本。
+
+## 網站網址確認待辦事項
+
+- [x] 確認目前 Manus 內建發布網址。
+- [x] 檢查 GitHub 遠端 repository 資訊。
+- [x] 判斷是否已啟用 GitHub Pages，若未啟用則提供設定方式。
+
+## GitHub Pages 自動部署設定
+
+- [x] 檢查 Vite 專案建置輸出目錄與 package scripts。
+- [x] 確認 GitHub Pages 子路徑部署所需的 base 設定。
+- [x] 建立 GitHub Actions workflow 以自動建置並發布到 GitHub Pages。
+- [x] 執行本地建置驗證。
+- [ ] 保存 checkpoint 並提供使用者後續啟用說明。
