@@ -370,7 +370,7 @@ export default function Home() {
             rel="noreferrer"
             aria-label="開啟英文學術網站"
           >
-            English Site
+            Healthy Aging
           </a>
         </nav>
       </header>
