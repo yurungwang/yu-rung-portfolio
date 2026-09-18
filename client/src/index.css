@@ -294,6 +294,28 @@
   width: 100%;
 }
 
+.nav-links .language-link {
+  padding: 0.55rem 0.85rem;
+  border: 1px solid rgba(49, 80, 56, 0.32);
+  border-radius: 999px;
+  font-family: "Cormorant Garamond", serif;
+  font-size: 0.86rem;
+  font-weight: 600;
+  letter-spacing: 0.05em;
+  transition: color 180ms ease, background 180ms ease, border-color 180ms ease, transform 180ms ease;
+}
+
+.nav-links .language-link::after {
+  display: none;
+}
+
+.nav-links .language-link:hover {
+  border-color: #244d3a;
+  background: #244d3a;
+  color: #f6efdf;
+  transform: translateY(-1px);
+}
+
 .hero-section {
   display: grid;
   grid-template-columns: minmax(0, 1.1fr) minmax(280px, 0.42fr);

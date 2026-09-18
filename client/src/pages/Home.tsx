@@ -363,6 +363,15 @@ export default function Home() {
               {item.label}
             </a>
           ))}
+          <a
+            className="language-link"
+            href="https://yurungwang-47ywiar4.manus.space"
+            target="_blank"
+            rel="noreferrer"
+            aria-label="開啟英文學術網站"
+          >
+            English Site
+          </a>
         </nav>
       </header>
 
