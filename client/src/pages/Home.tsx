@@ -27,7 +27,8 @@ const careImage =
   "https://d2xsxph8kpxj0f.cloudfront.net/310519663414221053/BmCPQuqMx2RaZ8YX6qfUEo/yu-rung-care-community-Q9KpJKJ5sfnZyGpJH78JEa.webp";
 const patternImage =
   "https://d2xsxph8kpxj0f.cloudfront.net/310519663414221053/BmCPQuqMx2RaZ8YX6qfUEo/yu-rung-timeline-pattern-RaPnkyxe78NeHXNSWE3J69.webp";
-const profilePhoto = "https://yurungfolio-bmcpquqm.manus.space/manus-storage/yu-rung-profile-photo_fd2050b1.jpg";
+const profilePhoto =
+  "https://files.manuscdn.com/user_upload_by_module/session_file/310519663414221053/tdvowrpHwbqgnbwq.jpeg";
 
 const navItems = [
   { href: "#profile", label: "專業概述" },
@@ -363,6 +364,15 @@ export default function Home() {
               {item.label}
             </a>
           ))}
+          <a
+            className="language-link"
+            href="https://yurungwang.github.io/yurung-wang-academic/"
+            target="_blank"
+            rel="noreferrer"
+            aria-label="開啟英文學術網站"
+          >
+            Healthy Aging
+          </a>
         </nav>
       </header>
 
