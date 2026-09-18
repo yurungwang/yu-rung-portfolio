@@ -185,6 +185,16 @@ const journalPublications = [
   {
     year: "2026",
     citation:
+      "Wang, Y. R., Lin, F. M., Ye, L., Yu, L., Kang, J., Biddle, M., & Chen, C. M. (2026). Exploring the Mediating Roles of Aging Perceptions and Physical Activity on Healthy Aging Perspectives Among Older Adults With Chronic Diseases in Taiwan and China: A Cross‐Sectional Study. Geriatrics & Gerontology International, 26(9), e70809.",
+  },
+  {
+    year: "2026",
+    citation:
+      "Lee, Y. C., Chang, C. H., Wang, Y. R., Tsai, Y. H., & Tai, H. C. (2026). Preparing nursing students for multilingual caregiving contexts: A quasi-experimental evaluation of a problem-based English for nursing purposes intervention. Nurse Education Today, 107361.",
+  },
+  {
+    year: "2026",
+    citation:
       "Wang, Y. R., Hsieh, P. L., Chang, C. C., Hsiao, C. C. & Hu, M. L. (2026). Using a digital-based mindfulness curriculum to enhance healthy aging outcomes in community-dwelling older adults in Taiwan: mixed methods feasibility study. JMIR Human Factors, 13, e8416.",
   },
   {
@@ -240,6 +250,13 @@ const bookChapters = [
 ];
 
 const researchProjects = [
+  {
+    period: "2026/08/01–2027/07/31",
+    source: "國家科學及技術委員會",
+    role: "計畫主持人",
+    title: "人工智慧輔助正念數位課程對社區高齡者健康老化成效之混合式研究",
+    code: "115-2410-H-110-089-",
+  },
   {
     period: "2025/08/01–2026/07/31",
     source: "教育部教學實踐計畫",

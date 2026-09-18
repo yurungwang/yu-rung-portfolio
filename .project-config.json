@@ -1,0 +1,36 @@
+{
+  "build_command": "pnpm run build",
+  "capabilities": [],
+  "dev_command": "pnpm run dev",
+  "env_vars": {},
+  "experiments": null,
+  "git_remote": {
+    "repo_url": "s3://vida-prod-gitrepo/webdev-git/310519663414221053/BmCPQuqMx2RaZ8YX6qfUEo",
+    "access_key_id": "ASIAZV3A2ECZF55U53CW",
+    "secret_access_key": "MswaL5R7gbFNQzTscYBd2RlfbgHBJTe7+pUSMtEx",
+    "session_token": "IQoJb3JpZ2luX2VjEIL//////////wEaCXVzLWVhc3QtMSJGMEQCICNzJqyP5QGplDcmaierOziMy/tAKaxqzkY8rvCVaJ1LAiBKpQczHsI/H7vf6GO+TNqFl8bpXSdLH75YUHLi00iTqSr1AwhKEAQaDDY2NTM4NjA5ODg2NiIM7lPJz8q/Q5GH+jpzKtID2jnsGVbDabG0Fc4tqnwXKbz2U77sOmYLYVk4wL1yQF/pH3T8EvWpAkFu/VsFFnL6keBKj0uV1ePrQ3ySsEcfLtLGYaF5Q5vWPGvXoH1Mhjilo3ewMBQysrZtYXo7OLuFBjXmK/Du4SHJktyHEKIlyNQuiXXUM+01koM3R+WLznfjV7o8I4r6FcFOSVjZhqL7JqBkS8AZBvuRHUvNrHKXglgSz8fW4j0gV9M92nBcOjGN1ui7zOKLPNtt5YstBlallKtvGEtmYmJfZXeY6ChNGebGrO6w4DSVMcqFyuwSKxlJhz90+yXi/IGv7wnXeaMWDMf7HWIcUCJL5TDzObT1d5JHUjRAdZ41hgf7gyLVxJG9e2XoljVZ+aO+Zx1aSE4ZG48xsze+vg/Nbc77uiSPSegKSri8ygW7bJIZ+3kXSW1bDCj/fZLYM+fyaTgeiWqTnATXocFvKLbKkqXKX52wNQM3t1IIHY3h/jsZt/DQ5R45k6XRVuNMDf9ksae2oJGe+n1Q+Jm+E3+ViHIA08MpTGhKTUGeKmJVN4Z+qo70i4+p0a1sMcXLmrARUiVHqazdq53+TTKDBkXYvXsQhk9YEJ5RH3A/pIkdonqrPX84oxAaujCD8LXVBjqeAavut/uJX6lGklr67tjI8wfaoPCi2sI8QUUf8931dn9HUiyzKF2ed59vw1R5mlhTNq5hlXE3GJqQ5h2Y50YmxKfu9yyYRyS8YrSqYHzsKuWJMGtWpeEEeIEaJTylyVgULK3Qv+AV0sdBNg+uX3rgZY/EQddG+VPTjoXN/fU7x+6LC958h6PolhKR5efZ91CRIyOtx3dOBmQwrSS37OZD",
+    "expiration": "2026-09-19T05:42:27.000Z",
+    "backend": "GIT_BACKEND_S3"
+  },
+  "name": "yu-rung-portfolio",
+  "path": "/home/ubuntu/yu-rung-portfolio",
+  "port": 3000,
+  "secrets": {
+    "BUILT_IN_FORGE_API_KEY": "FipoftWaUQXDBZbdyVmQqP",
+    "BUILT_IN_FORGE_API_URL": "https://forge.manus.ai",
+    "JWT_SECRET": "9et7ak7maWAqX6dMoZJ9DD",
+    "OAUTH_SERVER_URL": "https://api.manus.im",
+    "OWNER_NAME": "Yu-Rung Wang",
+    "OWNER_OPEN_ID": "FixZp7hCXsc6EMozpu7NB8",
+    "VITE_ANALYTICS_ENDPOINT": "https://manus-analytics.com",
+    "VITE_ANALYTICS_WEBSITE_ID": "2f2298d4-e36d-4674-82dd-a6b71a0daf30",
+    "VITE_APP_ID": "BmCPQuqMx2RaZ8YX6qfUEo",
+    "VITE_APP_LOGO": "https://files.manuscdn.com/user_upload_by_module/web_dev_logo/310519663414221053/MbTLHWKmdQdYwBZW.png",
+    "VITE_APP_TITLE": "Yu-Rung Portfolio",
+    "VITE_FRONTEND_FORGE_API_KEY": "38tPYnDwzyWGH9aHgqPxW8",
+    "VITE_FRONTEND_FORGE_API_URL": "https://forge.manus.ai",
+    "VITE_OAUTH_PORTAL_URL": "https://manus.im"
+  },
+  "template_id": "web-static",
+  "test_command": "pnpm test"
+}
