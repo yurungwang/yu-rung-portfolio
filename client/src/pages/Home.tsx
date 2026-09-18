@@ -366,7 +366,7 @@ export default function Home() {
           ))}
           <a
             className="language-link"
-            href="https://yurungwang-47ywiar4.manus.space"
+            href="https://yurungwang.github.io/yurung-wang-academic/"
             target="_blank"
             rel="noreferrer"
             aria-label="開啟英文學術網站"
