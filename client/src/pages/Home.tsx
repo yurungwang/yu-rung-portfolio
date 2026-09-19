@@ -28,7 +28,7 @@ const careImage =
 const patternImage =
   "https://d2xsxph8kpxj0f.cloudfront.net/310519663414221053/BmCPQuqMx2RaZ8YX6qfUEo/yu-rung-timeline-pattern-RaPnkyxe78NeHXNSWE3J69.webp";
 const profilePhoto =
-  "https://files.manuscdn.com/user_upload_by_module/session_file/310519663414221053/tdvowrpHwbqgnbwq.jpeg";
+  "https://files.manuscdn.com/user_upload_by_module/session_file/310519663414221053/czZDWxiyHHdbGzVn.jpeg";
 
 const navItems = [
   { href: "#profile", label: "專業概述" },
